@@ -15,9 +15,9 @@ Depending on your OS, it will create a plugin file (e.g. `customscanner.so` for 
 You can now use this plugin with phoneinfoga.
 
 ```shell
-$ phoneinfoga scan -n <number> --plugin ./customscanner.so
+$ phoneinfoga scan -n +966582403837 --plugin ./customscanner.so
 
-Running scan for phone number <number>...
+Running scan for phone number +966582403837...
 
 Results for customscanner
 Valid: true
